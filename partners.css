@@ -9,7 +9,7 @@ body{
     margin-right: 500px;
     padding-left: 0px;
     padding-right: 0px;
-    color:white;
+    color:rgb(136, 35, 35);
     box-shadow: 0 8px 32px 0 rgb(31 38 135 / 100%);
     padding-left: 350px;
     border-left-width: 4px;
@@ -58,18 +58,6 @@ img{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.trell:after{
-    padding: 7px;
-    box-shadow: 0 0 0 4px #912626;
-    transition: transform 0.2s, opacity 0.2s;
-    transform: scale(0.8);
-    opacity: 0;
-    pointer-events: none;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
 
 .ensvee{
     margin-right: 50px;
@@ -84,9 +72,6 @@ img{
     margin-top: 0px;
 }
 .trell_info{
-    display: none;
-    transition: transform 0.8s;
-    margin: 5px;
-    color: aqua;
+   
 }
 
