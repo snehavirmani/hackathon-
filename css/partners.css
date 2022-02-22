@@ -2,25 +2,33 @@ body{
     background-color: black;
 }
 .heading{
-    border: 4px solid rgb(102, 236, 131);
+    border: 4px solid gray;
     background-color: #1d1d1d;
     border-radius: 100px;
-    padding: 2px;
-    color: #FF008E;
-    font-family: 'Ruda', sans-serif;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color:white;
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 100%);
     padding-left: 350px;
     border-left-width: 4px;
-    margin-left: 300px;
-    margin-right: 300px;
-    height: 50px;
+
+  
     font-size: 3rem;
+    
+    font-family: 'Lobster', cursive;
+    font-weight: 900;
+  
+    padding: 9px 50px 14px 50px;
+    text-align: center;
 }
 .partner{
     
 position: absolute;
 width: 1065px;
 height: 460px;
-top: 150px;
+top: 200px;
 left: 220px;
 
 }
@@ -34,7 +42,7 @@ img{
     box-sizing: border-box;
     scroll-behavior: smooth;
     background: rgba(175, 103, 103, 0.1);
-    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 50%);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 100%);
     backdrop-filter: blur( 20px );
     border-radius: 80px;
     border: 1px solid rgba(216, 221, 193, 0.18);
@@ -50,7 +58,7 @@ img{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-   
+
 .ensvee{
     margin-right: 50px;
     width: 300px;
@@ -63,12 +71,10 @@ img{
     margin-left: 50px;
     margin-top: 0px;
 }
-
-.trell:hover{
-position: absolute;
-width: 200px;
-height: 200px;
-left: 657px;
-top: 205px;
-
+.trell_info{
+    display: none;
+    transition: transform 0.8s;
+    margin: 5px;
+    color: aqua;
 }
+
