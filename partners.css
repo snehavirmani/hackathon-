@@ -60,6 +60,8 @@ img{
     cursor: pointer;
   }
   .description {
+    text-align: center;
+    text-decoration: wavy;
     padding: 0px 15px;
     margin: 5px 0;
     width:100%!important;
