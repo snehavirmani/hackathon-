@@ -87,6 +87,10 @@ img{
     width: 50%;
     margin-left: 50px;
     margin-top: 0px;
+    display: flex;
+}
+.secondSide{
+    display: flex;
 }
 .trell_info{
     display: none;
