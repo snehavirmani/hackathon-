@@ -60,10 +60,14 @@ img{
     cursor: pointer;
   }
   .description {
-    text-align: center;
-    text-decoration: wavy;
+    text-align: justify;
+    text-shadow:2px 1px rgb(243, 7, 180);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+   text-size-adjust: 8px;
     padding: 0px 15px;
-    margin: 5px 0;
+    margin-left: 150px;
     width:100%!important;
     height: 0;
     overflow: hidden;
