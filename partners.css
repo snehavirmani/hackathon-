@@ -21,25 +21,16 @@ img{
 
 }
 .heading{
-<<<<<<< HEAD
-    border: 4px solid rgb(255, 255, 255);
-=======
     border: 4px solid white;
     box-shadow: 0 8px 32px 0 rgb(243, 7, 180);
->>>>>>> b8c8ce9c797f8401f0968ac127297e9508deeaed
     background-color: #1d1d1d;
     border-radius: 100px;
     margin-left: 500px;
     margin-right: 500px;
     padding-left: 0px;
     padding-right: 0px;
-<<<<<<< HEAD
-    color:rgb(246, 247, 248);
-    box-shadow: 0 8px 32px 0 rgb(228, 4, 179);
-=======
     color:white;
  
->>>>>>> b8c8ce9c797f8401f0968ac127297e9508deeaed
     padding-left: 350px;
     border-left-width: 4px;
 
@@ -52,37 +43,10 @@ img{
     padding: 9px 50px 14px 50px;
     text-align: center;
 }
-<<<<<<< HEAD
-.partner{
-    
-position: absolute;
-width: 1065px;
-height: 460px;
-top: 200px;
-left: 220px;
-
-}
-img{
-    width: 100px;
-    margin: 100px;
-   border-radius:100% ;
-    width: 75%;
-    border: 3px #b1be17 solid;
-    height: 16rem;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    background: rgba(175, 103, 103, 0.1);
-    box-shadow: 0 8px 32px 0 rgb(248, 11, 205);
-    backdrop-filter: blur( 20px );
-    border-radius: 80px;
-    border: 1px solid rgba(216, 221, 193, 0.18);
-    cursor: pointer;
-=======
   .main-div {
     width: 80%;
     padding: 0;
     margin: 0 auto;
->>>>>>> b8c8ce9c797f8401f0968ac127297e9508deeaed
     display: flex;
     
   }
