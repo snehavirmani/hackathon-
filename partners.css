@@ -1,20 +1,49 @@
 body{
     background-color: black;
 }
+img{
+  width: 300px;
+  height: 190px;
+  margin-left: 150px;
+  border-radius: 80px;
+  border: 1px solid rgba(216, 221, 193, 0.18);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(175, 103, 103, 0.1);
+  box-shadow: 0 8px 32px 0 rgb(235, 11, 149);
+  backdrop-filter: blur( 20px );
+ 
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background: rgba(175, 103, 103, 0.1);
+
+}
 .heading{
+<<<<<<< HEAD
     border: 4px solid rgb(255, 255, 255);
+=======
+    border: 4px solid white;
+    box-shadow: 0 8px 32px 0 rgb(243, 7, 180);
+>>>>>>> b8c8ce9c797f8401f0968ac127297e9508deeaed
     background-color: #1d1d1d;
     border-radius: 100px;
     margin-left: 500px;
     margin-right: 500px;
     padding-left: 0px;
     padding-right: 0px;
+<<<<<<< HEAD
     color:rgb(246, 247, 248);
     box-shadow: 0 8px 32px 0 rgb(228, 4, 179);
+=======
+    color:white;
+ 
+>>>>>>> b8c8ce9c797f8401f0968ac127297e9508deeaed
     padding-left: 350px;
     border-left-width: 4px;
 
-  
+    border-image-slice:100% ;
     font-size: 3rem;
     
     font-family: 'Lobster', cursive;
@@ -23,6 +52,7 @@ body{
     padding: 9px 50px 14px 50px;
     text-align: center;
 }
+<<<<<<< HEAD
 .partner{
     
 position: absolute;
@@ -47,30 +77,73 @@ img{
     border-radius: 80px;
     border: 1px solid rgba(216, 221, 193, 0.18);
     cursor: pointer;
+=======
+  .main-div {
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+>>>>>>> b8c8ce9c797f8401f0968ac127297e9508deeaed
     display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-.trell{
-    margin-left:50px;
-    width: 300px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    
+  }
+  .images {
     position: relative;
+    background:black;
+    margin: 10px;
+    padding: 15px 15px 15px 15px;
+    display: block;
+    width:100%;
     cursor: pointer;
-}
-
-.ensvee{
-    margin-right: 50px;
-    width: 300px;
-    margin-top: 0px;
+  }
+  .description {
+    text-align: center;
+    text-decoration: wavy;
+    padding: 0px 15px;
+    margin: 5px 0;
+    width:100%!important;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    color: white;
+  }
+  .images:hover ~ .description {
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+  }
+  .description:hover ~ .description {
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+  }
+  .images::after {
+    position: absolute;
+    content: "+";
+    right: 20px;
+  }
+  .images:hover::after {
+    position: absolute;
+    content: "-";
+    right: 20px;
+  }
+  .ensvee{
+    width: 298px;
+    height: 188px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 60px;
     margin-bottom: 0px;
-    cursor: pointer;
-}
-.firstSide{
-    float: left;
-    width: 50%;
-    margin-left: 50px;
-    margin-top: 0px;
-}
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+ .trell{
+    margin-top: 60px
+ }
